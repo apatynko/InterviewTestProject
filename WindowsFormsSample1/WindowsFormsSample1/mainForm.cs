@@ -157,17 +157,17 @@ namespace WindowsFormsSample1
                 return;
 
             if (sender == m_buttonMoveUp)
-                MoveMenuButtonUp(button);
+                MoveItemUp(button);
             else if (sender == m_buttonMoveDown)
-                MoveMenuButtonDown(button);
+                MoveItemDown(button);
 
 
         }
 
         /// <summary>
-        /// Moves menu button up
+        /// Moves item up
         /// </summary>
-        private void MoveMenuButtonUp(MenuButtonListBoxItem btn)
+        private void MoveItemUp(MenuButtonListBoxItem btn)
         {
             // TODO implement logic of changing the order of items m_checkedListBoxMenuButtons
 
@@ -178,9 +178,9 @@ namespace WindowsFormsSample1
             //---------------------
         }
         /// <summary>
-        /// Moves menu button down
+        /// Moves item down
         /// </summary>
-        private void MoveMenuButtonDown(MenuButtonListBoxItem btn)
+        private void MoveItemDown(MenuButtonListBoxItem btn)
         {
             // TODO implement logic of changing the order of items m_checkedListBoxMenuButtons
 
@@ -206,7 +206,7 @@ namespace WindowsFormsSample1
             // CODE goes here
             //---------------------
 
-            // TODO here goes logic of sorting menu buttons
+            // TODO here goes logic of changing order of menu buttons
             UpdateMenuButtons();
         }
 
