@@ -219,7 +219,7 @@ namespace WindowsFormsSample1
         public static string MESSAGE_CENTER = "Message Center";
         public static string UPDATES_MANAGER = "Updates Manager";
 
-        private void OnButtonReorder_Click(object sender, EventArgs e)
+        private void OnButtonUpdate_Click(object sender, EventArgs e)
         {
             ReorderMenuButtons();
         }

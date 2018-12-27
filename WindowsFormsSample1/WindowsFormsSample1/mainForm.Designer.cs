@@ -36,7 +36,7 @@
             this.m_buttonOpen = new WindowsFormsSample1.AdvancedButton();
             this.m_buttonFile = new WindowsFormsSample1.AdvancedButton();
             this.m_panelBottom = new System.Windows.Forms.Panel();
-            this.m_buttonReorder = new WindowsFormsSample1.AdvancedButton();
+            this.m_buttonUpdate = new WindowsFormsSample1.AdvancedButton();
             this.m_checkedListBoxMenuButtons = new System.Windows.Forms.CheckedListBox();
             this.m_buttonMoveUp = new System.Windows.Forms.Button();
             this.m_buttonMoveDown = new System.Windows.Forms.Button();
@@ -140,28 +140,28 @@
             // m_panelBottom
             // 
             this.m_panelBottom.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.m_panelBottom.Controls.Add(this.m_buttonReorder);
+            this.m_panelBottom.Controls.Add(this.m_buttonUpdate);
             this.m_panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.m_panelBottom.Location = new System.Drawing.Point(0, 665);
             this.m_panelBottom.Name = "m_panelBottom";
             this.m_panelBottom.Size = new System.Drawing.Size(1574, 64);
             this.m_panelBottom.TabIndex = 1;
             // 
-            // m_buttonReorder
+            // m_buttonUpdate
             // 
-            this.m_buttonReorder.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.m_buttonReorder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.m_buttonReorder.Description = "";
-            this.m_buttonReorder.Dock = System.Windows.Forms.DockStyle.Right;
-            this.m_buttonReorder.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.m_buttonReorder.Id = null;
-            this.m_buttonReorder.Location = new System.Drawing.Point(1385, 0);
-            this.m_buttonReorder.Name = "m_buttonReorder";
-            this.m_buttonReorder.Size = new System.Drawing.Size(189, 64);
-            this.m_buttonReorder.TabIndex = 0;
-            this.m_buttonReorder.Text = "Reorder";
-            this.m_buttonReorder.UseVisualStyleBackColor = false;
-            this.m_buttonReorder.Click += new System.EventHandler(this.OnButtonReorder_Click);
+            this.m_buttonUpdate.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.m_buttonUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.m_buttonUpdate.Description = "";
+            this.m_buttonUpdate.Dock = System.Windows.Forms.DockStyle.Right;
+            this.m_buttonUpdate.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.m_buttonUpdate.Id = null;
+            this.m_buttonUpdate.Location = new System.Drawing.Point(1385, 0);
+            this.m_buttonUpdate.Name = "m_buttonUpdate";
+            this.m_buttonUpdate.Size = new System.Drawing.Size(189, 64);
+            this.m_buttonUpdate.TabIndex = 0;
+            this.m_buttonUpdate.Text = "Update";
+            this.m_buttonUpdate.UseVisualStyleBackColor = false;
+            this.m_buttonUpdate.Click += new System.EventHandler(this.OnButtonUpdate_Click);
             // 
             // m_checkedListBoxMenuButtons
             // 
@@ -219,7 +219,7 @@
         private AdvancedButton m_buttonRedo;
         private AdvancedButton m_buttonMessage;
         private System.Windows.Forms.Panel m_panelBottom;
-        private AdvancedButton m_buttonReorder;
+        private AdvancedButton m_buttonUpdate;
         private System.Windows.Forms.CheckedListBox m_checkedListBoxMenuButtons;
         private System.Windows.Forms.Button m_buttonMoveUp;
         private System.Windows.Forms.Button m_buttonMoveDown;
