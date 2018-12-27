@@ -4,7 +4,7 @@
 
 The purpose of this task is to check a general understanding and possibility to implement basic manipulations with WinForms controls.
 
-There are a solution file and project files inside of folder **WindowsFormsSample1**. Also, you can find in **WindowsFormsSample1\ExpectedResult** the executable file of the SampleApllication. By running this application, you can look at what is expected to be as a final result during implementing this task.
+There is a solution file and project files inside of folder **WindowsFormsSample1**. Also, you can find in **WindowsFormsSample1\ExpectedResult** the executable file of the SampleApllication. By running this application, you can look at what is expected to be as a final result during implementing this task.
 
 All required code should be added to **MainForm.cs**. It is not required to change the structure of the listed methods. Just add necessary  logic to follow the requirements. Inside you will find blocks like:
 
@@ -12,7 +12,7 @@ All required code should be added to **MainForm.cs**. It is not required to chan
    it defines the task which should be done within this method.
 
 - **// comments after TODO**
-   here it is listed what should be implemented, and some hits how or what use
+   here it is listed what should be implemented, and some hints how or what to use
 
 - **// CODE goes here**
     it is a place where the implementation  should be done
